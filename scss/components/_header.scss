@@ -1,0 +1,44 @@
+.header{
+    background-image: url(./../../img/mobile/mobile-header2x.png);    
+}
+
+
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .header{
+        background-image: url(./../../img/mobile/mobile-header3x.png);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header{
+        background-image: url(./../../img/table/tablet-header2x.png);
+    }
+    
+    
+    @media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .header{
+            background-image: url(./../../img/table/tablet-header3x.png);
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .header{
+        background-image: url(./../../img/desktop/header-2x.png);
+    }
+    
+    
+    @media (min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .header{
+            background-image: url(./../../img/desktop/header-2x.png);
+        }
+    }
+}
